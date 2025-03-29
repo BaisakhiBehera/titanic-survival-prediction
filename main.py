@@ -5,7 +5,9 @@
 
 import pandas as pd
 import pickle
-df = pd.read_csv('C:\\Users\\LENOVO\\Downloads\\Logistic Regression\\Logistic Regression\\Titanic_train.csv')
+import os
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'Titanic_train.csv'))
+
 df
 
 
