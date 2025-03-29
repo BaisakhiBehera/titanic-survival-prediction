@@ -33,17 +33,17 @@ df.describe()
 # In[6]:
 
 
-# import matplotlib.pyplot as plt
-# df.hist(bins=30, figsize=(15, 10), edgecolor='black')
-# plt.suptitle('Histograms of All Numeric Features')
-# plt.show()
+import matplotlib.pyplot as plt
+df.hist(bins=30, figsize=(15, 10), edgecolor='black')
+plt.suptitle('Histograms of All Numeric Features')
+plt.show()
 
 
 # # In[7]:
 
 
-# df.boxplot()
-# plt.show()
+df.boxplot()
+plt.show()
 
 
 # In[8]:
